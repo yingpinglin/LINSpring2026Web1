@@ -1,0 +1,151 @@
+/* 
+TO OPEN this page right click next to the n
+use google color picker for picking colors/https://fonts.google.com/ google font >filters>choose font type> click on font > get font> fet embed code> weight should be 100-900 copy css class
+dont pick BLUE bc its the color of the links 
+*/
+/* html tag selector */
+
+body {
+    background-color: #c8efff;
+    font-family: 'Indie Flower', cursive;
+}
+
+/* This is the white box that holds all the content */
+#wrapper {
+    background-color: #FFF9E6;
+    width: 80%;
+    margin: 0px auto;
+    border-radius: 30px;
+}
+
+/* This makes all h3, h4, h5 have no margin on top or bottom */
+h3,h4,h5 {
+    margin: 0px;
+}
+
+/* Big title at the top */
+h1 {
+    color: #FF6B6B;
+    font-family: "Pacifico", cursive;
+    font-size: 52px;
+    text-align: center;
+}
+
+/* Subtitle under the big title */
+header h2 {
+    color: #4D96FF;
+    font-family: "Amatic SC", cursive;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+/* The navigation bar menu */
+nav {
+    text-align: center;
+    background-color: #FFD93D;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 50px;
+    font-family: "Patrick Hand", cursive;
+    font-size: 20px;
+}
+
+/* Links inside the navigation */
+nav a {
+    color: #4A4E69;
+    text-decoration: none;
+    margin: 0px 10px;
+    font-weight: bold;
+}
+
+/* The main title for the art projects */
+main h2 {
+    color: #FF6B6B;
+    font-family: "Fredoka One", cursive;
+    font-size: 32px;
+    text-align: center;
+    background-color: #FFD93D;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 50px;
+}
+
+/* Artist names */
+main h3 {
+    font-family: "Fredoka One", cursive;
+    font-size: 28px;
+    color: #4D96FF;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+/* Artwork titles with links */
+main h4 {
+    font-size: 24px;
+    font-family: "Patrick Hand", cursive;
+    margin: 5px 0px;
+}
+
+/* Links inside the artwork titles */
+main a {
+    text-decoration: none;
+    color: #FF8C42;
+    font-weight: bold;
+}
+
+/* When you hover over links */
+main a:hover {
+    color: #FF6B6B;
+    font-size: 26px;
+}
+
+/* Year of the artwork */
+main h5 {
+    color: #6BCB77;
+    font-size: 20px;
+    font-family: "Indie Flower", cursive;
+    margin-top: 5px;
+}
+
+/* Footer section */
+footer {
+    text-align: center;
+    background-color: #FFD93D;
+    padding: 20px;
+    border-radius: 0px 0px 30px 30px;
+    margin-top: 20px;
+}
+
+/* Copyright text in footer */
+span.copyright {
+    color: #FF6B6B;
+    font-family: "Amatic SC", cursive;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* Author name in footer */
+span.author {
+    color: #4D96FF;
+    font-family: "Pacifico", cursive;
+    font-size: 22px;
+    margin-left: 20px;
+}
+
+/* Line dividers */
+hr {
+    border: 2px dashed #FFD93D;
+    margin: 20px;
+}
+
+/* Center the header text */
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Add spacing inside the main area */
+main {
+    padding: 0px 30px;
+}
