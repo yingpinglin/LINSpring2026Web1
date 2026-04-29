@@ -1,0 +1,87 @@
+/* 
+body {
+	font-family: helvetica, arial, sans-serif;
+}
+
+h1 {
+	color: #3a241d;
+	text-align: center;
+} */
+
+
+body {
+	font-family: 'Patrick Hand', 'Gochi Hand', 'Short Stack', cursive;
+	background: #fffaf2;
+}
+
+h1 {
+	font-family: 'Fredoka One', cursive;
+	font-size: 3rem;
+	color: #c0392b;
+	text-align: center;
+	text-shadow: 2px 2px 0 #f9e79f;
+	letter-spacing: 1px;
+}
+
+#left-container {
+	left: 15px;
+}
+
+#right-container {
+	right: 15px;
+}
+
+.container {
+	background-color: #eee;
+	width: 15%;
+	top: 0px;
+	position: absolute;
+	height: 100%;
+	padding: 10px;
+}
+
+.plant-holder {
+	position: relative;
+	height: 13%;
+	left: -10px;
+}
+
+.plant {
+	position: absolute;
+	max-width: 200%;
+	max-height: 200%;
+	z-index: 2;
+}
+
+.hor-walls {
+	/* height: 80%;
+	width: 60%;
+	background: #d1e1df;
+	border-radius: 1rem;
+	position: absolute;
+	bottom: 0.5%;
+	left: 20%;
+	opacity: 0.5;
+	z-index: 1; */
+	height: 80%;
+	width: 60%;
+	background: repeating-linear-gradient(180deg, #ff4444 0px, #ff4444 20px, #ffffff 20px, #ffffff 40px);
+	border-radius: 1rem;
+	position: absolute;
+	bottom: 0.5%;
+	left: 20%;
+	opacity: .5;
+	z-index: 1;
+}
+
+.ver-walls {
+	height: 80%;
+	width: 60%;
+	background: repeating-linear-gradient(90deg, #ff4444 0px, #ff4444 20px, #ffffff 20px, #ffffff 40px);
+	border-radius: 1rem;
+	position: absolute;
+	bottom: 0.5%;
+	left: 20%;
+	opacity: 10;
+	z-index: 1;
+}
